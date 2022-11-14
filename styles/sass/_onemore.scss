@@ -1,0 +1,132 @@
+.onemore {
+  .portion {
+    position: relative;
+    z-index: 2;
+    padding-left: 20px;
+    height: 520px;
+    overflow: hidden;
+    .shape1 {
+      position: absolute;
+      top: 95px;
+      left: 0;
+      z-index: -1;
+    }
+    .shape2-2 {
+      display: none;
+      position: absolute;
+      margin-top: 0;
+      margin-left: 0;
+      left: 180px;
+      top: 100px;
+    }
+    .shape4-2 {
+      display: none;
+      position: absolute;
+      top: 110px;
+      left: 180px;
+    }
+    h1 {
+      color: #002a48;
+      font-weight: 700;
+      font-size: 60px;
+      margin-top: 100px;
+    }
+    h2 {
+      color: $primary-color;
+      font-weight: 700;
+      font-size: 46px;
+    }
+    p {
+      width: 430px;
+      font-weight: 500;
+      margin: 25px 0;
+    }
+    .view-btn {
+      width: 163px;
+      height: 48px;
+      border: solid 1px $primary-color;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        width: 80px;
+      }
+      i {
+        margin-top: 4px;
+        margin-left: 10px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .explore-btn {
+      width: 163px;
+      height: 48px;
+      background-color: $primary-color;
+      color: $neutral00-color;
+      border-radius: 50px;
+      margin-left: 30px;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        width: 90px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .shapes {
+      display: none;
+      width: 400px;
+      transform: translateY(70px) translateX(150px);
+    }
+  }
+  .portion {
+    position: relative;
+    .shape5-2 {
+      display: none;
+    }
+    .shape6-2 {
+      display: none;
+    }
+    .shape7-2 {
+      display: none;
+    }
+    .shape2 {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    .shape3 {
+      position: absolute;
+      top: 100px;
+      left: 30px;
+    }
+    .shape4 {
+      position: absolute;
+      top: 110px;
+      left: 30px;
+    }
+    .shape5 {
+      width: 500px;
+      position: absolute;
+      top: 210px;
+      left: -10px;
+    }
+    .shape6 {
+      position: absolute;
+      top: 180px;
+      left: 0px;
+    }
+    .shape7 {
+      width: 800px;
+      height: 600px;
+      position: absolute;
+      top: 20px;
+      left: 0px;
+    }
+  }
+}

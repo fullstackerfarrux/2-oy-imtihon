@@ -1,0 +1,42 @@
+.loading-page {
+  background-color: #fceed5;
+  height: 100vh;
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 1;
+  z-index: 10;
+  animation: loading-bcg 0.5s linear 3s both;
+
+  .loading {
+    width: 100px;
+    height: 100px;
+    animation-name: zagruska;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+@keyframes zagruska {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-bcg {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

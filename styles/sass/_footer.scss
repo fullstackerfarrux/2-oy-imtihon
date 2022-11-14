@@ -1,0 +1,99 @@
+.footer {
+  padding: 80px 0;
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-radius: 40px 40px 0px 0px;
+
+  .subscribe {
+    padding: 30px;
+    background-color: $primary-color;
+    border-radius: 15px;
+
+    h2 {
+      color: $neutral00-color;
+      font-weight: 700;
+      font-size: 24px;
+      text-transform: capitalize;
+      width: 380px;
+    }
+
+    .form {
+      width: 700px;
+      height: 60px;
+      background-color: $neutral00-color;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      input {
+        width: 500px;
+        height: 40px;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid grey;
+      }
+
+      input + button {
+        margin-left: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: $primary-color;
+        border: none;
+        color: $neutral00-color;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  .footer-between {
+    padding: 40px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    ul {
+      display: flex;
+      gap: 60px;
+
+      li {
+        font-weight: 500;
+        font-size: 16px;
+        color: $neutral100-color;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+    .icons {
+      gap: 20px;
+      li {
+        width: 40px;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  .footer-end {
+    padding-top: 50px;
+    p {
+      color: $neutral60-color;
+      margin-top: 30px;
+    }
+    img {
+      margin: 0 250px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

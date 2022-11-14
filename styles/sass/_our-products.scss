@@ -1,0 +1,78 @@
+.our-products {
+  padding-bottom: 100px;
+  h2 {
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+
+  .view-btn {
+    width: 163px;
+    height: 48px;
+    margin-left: 700px;
+    border: solid 1px $primary-color;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+
+    p {
+      width: 80px;
+    }
+    i {
+      margin-top: 4px;
+      margin-left: 10px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .sell-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .card {
+      width: 290px;
+      height: 460px;
+      background-color: $neutral00-color;
+      box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+      margin-top: 30px;
+      padding: 8px;
+
+      img {
+        margin: 8px;
+      }
+      h2 {
+        color: $neutral100-color;
+        font-size: 20px;
+        margin-left: 8px;
+      }
+
+      h2 + .flex {
+        margin-left: 2px;
+        margin: 10px 0;
+        p {
+          margin-left: 6px;
+        }
+      }
+      .seriy {
+        color: $neutral60-color;
+      }
+
+      .free {
+        width: 250px;
+        margin-top: 10px;
+        background-color: #fceed5;
+        border-radius: 8px;
+        align-items: center;
+
+        p {
+          color: #002a48;
+        }
+      }
+    }
+  }
+}

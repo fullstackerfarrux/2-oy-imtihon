@@ -1,0 +1,111 @@
+.header {
+  padding: 30px;
+  overflow: hidden;
+
+  .solid-tablet {
+    display: none;
+  }
+
+  .showcase-1 {
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-300px) translateX(-200px);
+  }
+
+  .logo {
+    position: relative;
+    z-index: 2;
+  }
+
+  .tablet-search {
+    display: none;
+  }
+
+  ul {
+    position: relative;
+    z-index: 2;
+    gap: 48px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: $primary-color;
+    font-weight: 700;
+  }
+
+  .input {
+    position: relative;
+  }
+
+  .searchimg {
+    position: absolute;
+    left: 55px;
+    top: 12px;
+  }
+
+  .search {
+    width: 280px;
+    height: 44px;
+    margin-left: 36px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 60px;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: $primary-color;
+    color: white;
+    font-weight: 700;
+    margin-left: 15px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .dropdown {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    input[type="checkbox"]:checked + .dropdown-menu {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      background-color: white;
+      position: absolute;
+      top: 80px;
+    }
+
+    .strelka {
+      width: 15px;
+      height: 10px;
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    .dropdown-menu {
+      display: none;
+
+      ul {
+        margin: 0;
+
+        li {
+          margin-top: 10px;
+          margin-left: 5px;
+          width: 80px;
+          border-radius: 5px;
+          padding-left: 10px;
+          background-color: $neutral20-color;
+
+          &:hover {
+            padding-left: 15px;
+            transition: all 0.3s ease-out;
+          }
+        }
+      }
+    }
+  }
+}

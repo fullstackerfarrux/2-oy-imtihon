@@ -1,0 +1,160 @@
+.pet-sellers {
+  padding-bottom: 60px;
+
+  p {
+    margin-top: 7px;
+    margin-right: 10px;
+  }
+
+  h2 {
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+
+  .view-btn {
+    width: 223px;
+    height: 48px;
+    margin-left: 700px;
+    border: solid 1px $primary-color;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+
+    p {
+      width: 80px;
+    }
+    i {
+      margin-top: 4px;
+      margin-left: 10px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .flex {
+    img {
+      margin-left: 70px;
+      margin-top: 45px;
+    }
+    .partner1 {
+      margin-left: 0;
+      margin-bottom: 65px;
+    }
+    .partner2 {
+      margin-bottom: 65px;
+    }
+  }
+
+  .adoption {
+    background-color: #ffb775;
+    position: relative;
+
+    .shapes-11 {
+      position: absolute;
+      top: -75px;
+      left: -15px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 52px;
+      margin-top: 65px;
+      margin-left: 85px;
+      position: relative;
+      z-index: 2;
+    }
+    img {
+      margin-left: 15px;
+      margin-top: 75px;
+      position: relative;
+      z-index: 2;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 36px;
+      color: $primary-color;
+      margin-left: 85px;
+      margin-top: 10px;
+      position: relative;
+      z-index: 2;
+    }
+    p {
+      width: 300px;
+      color: $neutral80-color;
+      margin-left: 85px;
+      margin-top: 10px;
+      position: relative;
+      z-index: 2;
+    }
+    .view-btn {
+      position: relative;
+      z-index: 2;
+      width: 163px;
+      height: 48px;
+      margin-left: 20px;
+      border: solid 1px $primary-color;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 40px;
+
+      p {
+        width: 80px;
+        margin-left: 5px;
+        margin-top: -2px;
+        color: $primary-color;
+      }
+      i {
+        margin-top: 4px;
+        margin-left: 10px;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .explore-btn {
+      position: relative;
+      z-index: 2;
+      width: 163px;
+      height: 48px;
+      background-color: $primary-color;
+      border-radius: 50px;
+      margin-left: 85px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+      margin-top: 40px;
+
+      p {
+        width: 90px;
+        margin-left: 5px;
+        margin-top: -1px;
+        color: $neutral00-color;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .portion {
+      .shapes-12 {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        z-index: 1;
+      }
+      .adoption-image {
+        position: absolute;
+        top: -75px;
+        right: 0px;
+        z-index: 2;
+      }
+    }
+  }
+}
